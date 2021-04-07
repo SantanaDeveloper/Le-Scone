@@ -23,5 +23,5 @@ function compilaSassProd() {
 }
 
 function watch() {
-    gulp.watch("css/scss/**/*.scss", compilaSassProd);
+    gulp.watch("css/scss/**/*.scss", compilaSass);
 }
